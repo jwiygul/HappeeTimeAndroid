@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_item_new_entry"
+        android:title="@string/app_name"
+        android:actionProviderClass="android.widget.MenuItem"
+        android:showAsAction="always"/>
+    <item 
+        android:id="@+id/menu_date" 
+        android:title="@string/textView"
+		android:actionViewClass="android.widget.TextView"
+		android:showAsAction="always"/>
+    
+    <item android:id="@+id/menu_item_back"
+        android:title="@string/back_string"
+       
+        
+        android:showAsAction="always"/>
+    
+    <item android:id="@+id/menu_item_forward"
+        android:title="@string/delete_string"
+        android:actionProviderClass = "android.widget.MenuItem"
+        android:showAsAction="always"/>
+    
+    
+
+</menu>

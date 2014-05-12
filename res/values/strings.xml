@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HapPeeTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="subtitle">Uh Hello?</string>
+	<string name="intake_fragment">Intake Page</string>
+	<string name="delete_string">Delete</string>
+	<string name = "back_string">Back</string>
+	<string name="textView">TextView</string>
+	<string name="type_picker">Type of Intake</string>
+	<string name="what_picker">What Intake?</string>
+	<string name="amount_picker">Amount of Intake</string>
+	<string name="output_amount_picker">Amount/Quality of Output</string>
+	<string name="output_type_picker">Type of Output</string>
+</resources>

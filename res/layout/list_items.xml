@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+  <TextView
+      android:id="@+id/list_item_timeView"
+      android:layout_width="80dp"
+      android:layout_height="30dp"
+      android:layout_alignParentLeft="true"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:textStyle="bold" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/list_item_timeView"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="-10dp" />
+
+  <TextView
+      android:id="@+id/list_item_typeView"
+      android:layout_width="120dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="30dp"
+      android:layout_toRightOf="@id/imageView"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:paddingTop="4dp" />
+  
+  <TextView
+      android:id="@+id/list_item_whatView"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      
+      android:layout_toRightOf="@id/list_item_typeView"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:paddingTop="4dp" />
+
+<TextView
+    android:id="@+id/list_item_amountView"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+    android:layout_alignRight="@id/list_item_whatView"
+    android:layout_below="@id/list_item_whatView"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp" />
+
+</RelativeLayout>
